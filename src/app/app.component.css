@@ -1,0 +1,53 @@
+.background-page-img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url("../assets/img/background-img.jpg");
+  background-size: cover;
+background-position: bottom right;
+z-index: -1;
+}
+
+.form-row{
+  margin:0;
+  height: 80%;
+}
+.header{
+  width: 100%;
+  height: 60px;
+  background: #FBFAF9;
+  opacity: 0.8;
+  margin: 0 !important;
+  position: relative;
+}
+
+.form{
+  background: #E1F1FF;
+  border-radius: 20px;
+  height: auto;
+
+  margin-top: 10vh;
+  padding-inline: 14%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.rates{
+  background: #E5E5E5;
+  margin:0;
+  height: inherit;
+}
+
+.rates-header{
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+@media (min-width: 1900px)  {
+  .form-row{
+    height: 60%;
+  }
+}

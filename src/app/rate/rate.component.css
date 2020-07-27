@@ -1,0 +1,88 @@
+.logo-web{
+  background-image: url(../../assets/img/iconWebGray.svg);
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: 14px;
+}
+
+.logo-tv{
+  background-image: url(../../assets/img/iconTVGray.svg);
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: 14px;
+}
+
+.rate-card{
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
+  padding: 24px;
+  width: 300px;
+  height: 280px;
+}
+
+.rate-card-title{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.rate-card-icon-title
+{
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 13px;
+}
+
+.rate-card-icons{
+  display: inline-block;
+  width: 50%;
+}
+
+.rate-card-cost{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+
+  display: inline-block;
+  position: relative;
+  top: -9px;
+}
+
+.rate-card-currency{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+}
+
+.rate-card-divider{
+  background-color: black;
+  width: 40px;
+  height: 2px;
+  margin: 0;
+}
+
+.rate-card-button{
+  background: #3343E1;
+  color:white;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 20px;
+  border:none;
+
+  font-family: 'Open Sans';
+  width: 150px;
+  height: 40px;
+  margin-left: 15px;
+  position: relative;
+  top: -17px;
+}

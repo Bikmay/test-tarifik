@@ -1,0 +1,74 @@
+.header-menu{
+  display: inline-block;
+  position: relative;
+}
+
+.header-menu-item{
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  background: #FBFAF9;
+  height: 60px;
+  border: none;
+  padding-inline: 50px;
+  padding-top: 11px;
+
+}
+
+.header-menu-item p{
+  margin:0;
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+
+.header-menu-item p:active{
+  color: #3343E1;
+}
+
+.header-logo{
+  background-image: url(../source/logo.svg);
+  width: 160px;
+  height: 30px;
+
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 14px;
+
+}
+
+.header-phoneButton{
+  display: flexbox;
+  float: right;
+  position: relative;
+  top:10px;
+  background: #3343E1;
+  border-radius: 20px;
+  width: 165px;
+  height: 40px;
+  border: none;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  color:white;
+  transition: .3s ease-in-out;
+  box-shadow: 4px 4px 10px rgba(0,0,0, 0.05);
+  right: 30px;
+}
+
+@media (min-width: 1900px)  {
+
+  .header-menu{
+    padding-inline: 150px;
+  }
+
+  .header-logo{
+    margin-left: 200px;
+    margin-top: 14px;
+
+  }
+
+
+}
