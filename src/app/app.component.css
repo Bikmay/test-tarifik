@@ -1,16 +1,9 @@
-.background-page-img{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-image: url("../assets/img/background-img.jpg");
-  background-size: cover;
-background-position: bottom right;
-z-index: -1;
-}
+
 
 .form-row{
   margin:0;
   height: 80%;
+  position: relative;
 }
 .header{
   width: 100%;
@@ -19,6 +12,7 @@ z-index: -1;
   opacity: 0.8;
   margin: 0 !important;
   position: relative;
+  z-index: 2;
 }
 
 .form{
@@ -27,7 +21,8 @@ z-index: -1;
   height: auto;
 
   margin-top: 10vh;
-  padding-inline: 14%;
+  padding-left: 7%;
+  padding-right: 7%;
   padding-top: 6%;
   padding-bottom: 6%;
 }
@@ -35,19 +30,30 @@ z-index: -1;
 .rates{
   background: #E5E5E5;
   margin:0;
-  height: inherit;
 }
-
 .rates-header{
   text-align: center;
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 20px;
   margin-top: 3%;
+  bottom: 10px;
+  position: relative;
 }
 
-@media (min-width: 1900px)  {
-  .form-row{
-    height: 60%;
+@media (max-width: 360px)  {
+
+  .form{
+    padding-inline:6%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
+
+  .form-submit{
+    margin-left: 15%;
+  }
+  .rates-header{
+    margin-top: 6%;
+    bottom: 0;
   }
 }

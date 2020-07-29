@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-rate',
@@ -6,8 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rate.component.css']
 })
 export class RateComponent implements OnInit {
+  // @Input() name: string;
+  // @Input() speed: number;
+  // @Input() price: number;
+  // @Input() chanelsCount: number;
+  // @Input() chanelsCountHD: number;
+   @Input() rates: any;
 
-  constructor() { }
+  constructor() {
+    console.log(this.rates);
+   }
 
   ngOnInit(): void {
   }

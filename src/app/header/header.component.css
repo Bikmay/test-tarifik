@@ -12,9 +12,14 @@
   background: #FBFAF9;
   height: 60px;
   border: none;
-  padding-inline: 50px;
+  padding-inline: 18px;
   padding-top: 11px;
+  /* border-bottom: 3px solid blue; */
 
+}
+
+.header-menu-item p:hover{
+  border-bottom: 3px solid blue;
 }
 
 .header-menu-item p{
@@ -22,16 +27,14 @@
   text-align: center;
   position: relative;
   top: 6px;
+  padding-bottom: 18px;
 }
 
-.header-menu-item p:active{
-  color: #3343E1;
-}
 
 .header-logo{
   background-image: url(../source/logo.svg);
   width: 160px;
-  height: 30px;
+  height: 29px;
 
   display: inline-block;
   margin-left: 100px;
@@ -55,7 +58,48 @@
   color:white;
   transition: .3s ease-in-out;
   box-shadow: 4px 4px 10px rgba(0,0,0, 0.05);
-  right: 30px;
+  right: 30px;  content: "8 800 111 11 11";
+}
+.header-home-dropdoun{
+  background-color: white;
+  border:none;
+  padding: 0;
+   visibility: hidden;
+   position: relative;
+   border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 6px;
+}
+
+
+.header-home-dropdoun li{
+  list-style-type: none;
+  position: relative;
+  padding: 10px;
+  padding-left: 20px;
+  border:none;
+  font-size: 13px;
+  line-height: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header-home-dropdoun li:hover{
+  background-color: blue;
+  color:white;
+}
+.header-phoneButton-phone{
+  display: none;
+}
+.header-phoneButton-number{
+  display: block;
+margin:0;
+}
+
+.header-burger{
+  display: none;
 }
 
 @media (min-width: 1900px)  {
@@ -68,7 +112,37 @@
     margin-left: 200px;
     margin-top: 14px;
 
-  }
+  }}
+  @media (max-width: 360px)  {
 
+    .header-menu{
+      display: none;
+    }
 
+    .header-phoneButton{
+      content: url(../../assets/img/phone.svg);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      right: 0;
+    }
+
+    .header-phoneButton-phone{
+      display: block;
+      color: white;
+      left: 5px;
+      position: relative;
+    }
+    .header-phoneButton-number{
+      display: none;
+    }
+    .header-logo{
+      margin-left: 50px;
+    }
+
+    .header-burger{
+      position: relative;
+      top:-10px;
+      display: inline;
+    }
 }

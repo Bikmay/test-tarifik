@@ -19,7 +19,6 @@
 .form-locationChange{
   display: inline;
   width: 50%;
-  margin-left: 12%;
 }
 
 .form-inputs{
@@ -30,7 +29,8 @@
   width: 100%;
   height: 30px;
   margin-top: 18px;
-  padding-inline: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -64,8 +64,17 @@ width: 198.68px;
 height: 40px;
 border:none;
 color:white;
-margin-inline: 28%;
+margin-left:33%;
+    margin-right: 40%;
 }
+
+.radio-button{
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+}
+
 @media (min-width: 1900px)  {
 
   .form-locationChange{
@@ -73,7 +82,25 @@ margin-inline: 28%;
   }
 
   .form-submit{
-    margin-inline: 36%;
+    margin-left: 39%;
+    margin-right: 40%;
   }
 
+}
+
+@media (min-width: 1280px)  {
+
+  .form-locationChange{
+    margin-left: 12%;
+  }
+
+}
+@media (max-width: 360px)  {
+
+  .form-submit{
+    margin-left: 15%;
+  }
+  .form-locationChange p{
+    font-size: 12px;
+  }
 }

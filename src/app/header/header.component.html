@@ -1,8 +1,28 @@
-  <div class="col col-sm-3 col-md-3"><div class="header-logo"></div></div>
-  <div class="col col-sm-7 col-lg-7 header-menu">
-    <div class="header-menu-item"><p>Домашний интернет</p></div>
-    <div class="header-menu-item">  <p>Интернет и ТВ</p></div>
-    <div class="header-menu-item"><p>Телевидиние</p></div>
+  <div class="col-9 col-sm-6 col-md-3">
+    <img class="header-burger" src="../../assets/img/burger-menu.svg" />
+    <div class="header-logo"></div>
   </div>
- <div class="col col-lg-2"><button class="header-phoneButton">8 800 111 11 11</button></div>
+  <div class="col-1 col-sm-1 col-lg-7 header-menu">
+    <div class="row">
+      <div class="header-menu-item col-4">
+
+        <p class="home" on-mouseenter="showDropdownMenu()" on-mouseleave="closeDropdownMenu()">Домашний интернет</p>
+        <ul class="header-home-dropdoun" on-mouseenter="showDropdownMenu()" on-mouseleave="closeDropdownMenu()">
+          <li>Для модема</li>
+          <li>Для дачи и дома</li>
+          <li style="border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;">Для смартфона</li>
+        </ul>
+
+      </div>
+      <div class="header-menu-item col-4">  <p>Интернет и ТВ</p></div>
+      <div class="header-menu-item col-4"><p>Телевидиние</p></div>
+    </div>
+    </div>
+ <div class="col-3 col-lg-2">
+   <button class="header-phoneButton">
+    <p class="header-phoneButton-number">8 800 111 11 11</p>
+    <img class="header-phoneButton-phone" src="../../assets//img/phone.svg" />
+  </button>
+</div>
 
